@@ -7,7 +7,7 @@ cask "juice" do
   desc "macOS menu bar battery time remaining"
   homepage "https://github.com/Yestercafe/juice"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Juice.app"
 

@@ -1,6 +1,8 @@
-# juice-tap
+# homebrew-juice-tap
 
 [Juice](https://github.com/Yestercafe/juice) 的 Homebrew cask tap。
+
+仓库名须带 `homebrew-` 前缀（Homebrew 约定）；tap 短名仍是 `juice-tap`。
 
 ## 安装
 
