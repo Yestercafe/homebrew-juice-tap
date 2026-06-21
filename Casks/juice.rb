@@ -7,6 +7,11 @@ cask "juice" do
   desc "macOS menu bar battery time remaining"
   homepage "https://github.com/Yestercafe/juice"
 
+  livecheck do
+    url :url
+    strategy :github_latest
+  end
+
   depends_on macos: :sonoma
 
   app "Juice.app"
